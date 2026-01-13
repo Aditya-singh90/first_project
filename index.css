@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    box-sizing: border-box;
+}
+:root{
+    --primary: #7f8fa6;
+    --secondary: rgba(0,0,0,0.05);
+}
+
+/* header section */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+header h1{
+    color: var(--primary);
+    letter-spacing: 6px;
+}
+header nav a{
+    color: #000;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 0px 10px;
+    font-weight: bold;
+}
+
+/* hero section css*/
+
+#hero{
+    padding: 50px 100px;
+}
+
+.hero-row{
+    display: flex;
+}
+.hero-left-col{
+    width: 50%;
+    padding-left: 50px;
+}
+
+.hero-left-col h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.hero-left-col span{
+    color: var(--primary);
+}
+
+.hero-left-col p{
+    margin-bottom: 20px;
+}
+
+.hero-left-col form{
+    margin-bottom: 20px;
+}
+
+.hero-left-col form input{
+    width: 65%;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.hero-left-col form button{
+    padding: 10px;
+    background-color: var(--primary);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.counter{
+    display: flex;
+    justify-content: space-around;
+}
+.hero-right-col{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#welcome{
+    height: 250px;
+    width: 150px;
+    position: absolute;
+    left: 0px;
+    top: 220px;
+}
+
+/* Featured section */
+#featured{
+    padding: 50px 100px;
+}
+.featured-row{
+    display: flex;
+    align-items: center;
+}
+.featured-left-col{
+    width: 50%;
+}
+.featured-right-col p{
+    margin-bottom: 20px;
+    width: 470px;
+    color: gray;
+}
+.featured-right-col{
+    width: 50%;
+}
+.featured-right-col h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.featured-right-col button{
+    padding: 10px;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid;
+}
+
+/* featured2 section css */
+
+#featured2
+{
+    padding: 50px 100px;
+}
+.featured2-row
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.featured2-left-col
+{
+    width: 50%;
+}
+.featured2-left-col p{
+    color: gray;
+    margin-bottom: 20px;
+}
+.featured2-left-col h1{
+    margin-bottom: 20px;
+}
+.featured2-left-col button{
+    padding: 10px;
+    background-color: #fff;
+    outline: none;
+}
+.featured2-right-col{
+    width: 50%;
+}
+.featured2-right-col img{
+    width: 100%;
+}
+
+/* selling section css */
+
+#selling{
+    padding: 50px 100px;
+}
+#selling h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.selling-row
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selling-col
+{
+    width: 30%;
+}
+.selling-col img{
+    width: 100%;
+    background-color: var(--secondary);
+}
+.selling-col h3,
+.selling-col p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* blog section css */
+#blog{
+    padding: 50px 100px;
+}
+#blog h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.blog-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog-col{
+    width:30%;
+    padding: 10px;
+    box-shadow: 0px 0px 5px gray;
+}
+.blog-col img
+{
+    width: 100%;
+}
+.blog-col h3,
+.blog-col p{
+    margin-bottom: 20px;
+}
+.blog-col button{
+       padding: 10px;
+    background-color: #fff;
+    outline: none;
+}
+
+/* footer css */
+
+footer{
+    padding: 50px 100px;
+}
+footer form{
+    text-align: center;
+    margin-bottom: 30px;
+}
+footer form input{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: var(--secondary);
+
+
+}
+footer form button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: var(--primary);
+}
+.footer-row{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-col h2{
+    margin-bottom: 10px;
+}
+.footer-col p{
+    color: gray;
+    margin-bottom: 10px;
+
+}
+
+
